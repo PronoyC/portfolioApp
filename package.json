@@ -1,5 +1,5 @@
 {
-  "name": "portfolioapp",
+  "name": "Pronoy's Portfolio",
   "version": "1.0.0",
   "description": "Simple Electron app of my portfolio",
   "main": "main.js",
@@ -17,9 +17,12 @@
   },
   "homepage": "https://github.com/PronoyC/portfolioApp#readme",
   "dependencies": {
-    "electron": "^4.0.4",
+    "electron-packager": "^13.0.1",
     "less": "^3.9.0",
     "path": "^0.12.7",
     "url": "^0.11.0"
+  },
+  "devDependencies": {
+    "electron": "^4.0.4"
   }
 }
